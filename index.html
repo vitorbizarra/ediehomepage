@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+    <link rel="icon" href="assets/devchallenges.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#icon').click(function(){
+            $('ul').toggleClass('show');
+            $('#bars').toggleClass("fas fa-bars fas fa-times");
+          });
+      });
+    </script>
+    <title>Devchallenges</title>
+  </head>
+  <body>
+    <nav>
+      <label class="logo">Edie</label>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#works">Our Works</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div id="icon">
+        <i id="bars" class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <main>
+      <div class="home" id="home">
+        <div class="above-img">
+          <p>Unhappy with your website?</p>
+          <h1>We create beautiful and fast web services</h1>
+        </div>
+        <img src="assets/heroImage.jpg" alt="meeting" class="home-banner">
+        <div class="under-img">
+          <h1>Story, emotion and purpose</h1>
+          <p>We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+        <label for="email" class="email-label">
+          <p>Want us to contact you?</p>
+          <div class="contact-us">
+            <input type="email" name="email" id="email" placeholder="Email" class="email-input">
+            <button class="join">Join</button>
+          </div>
+        </label>
+        </div>
+      </div>
+
+      <div class="services" id="services">
+        <h1>We offer high demand services</h1>
+        <div class="cards-area">
+          
+          <div class="card1">
+            <div class="icon">
+              <img src="assets/pen.svg" alt="pen">
+            </div>
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+            <a href="#">Get started</a>
+          </div>
+          
+          <div class="card2">
+            <div class="icon">
+              <img src="assets/code-sign.svg" alt="code-sign">
+            </div>
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+            <a href="#">Get started</a>
+          </div>
+          
+          <div class="card3">
+            <div class="icon">
+              <img src="assets/server.svg" alt="server">
+            </div>
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+            <a href="#">Get started</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="works" id="works">
+        <h1>Good design means good business</h1>
+        <div class="banners">
+          <div class="banner1">
+            <img src="assets/smarthome.jpg" alt="smarthome">
+            <div class="banner-text">
+              <span>Full stack application</span>
+              <a href="#">Smart home dashboard</a>
+            </div>
+          </div>
+
+          <div class="banner2">
+            <img src="assets/onboard.png" alt="onboard">
+            <div class="banner-text">
+              <span>UX/UI design</span>
+              <a href="#">Onboard application</a>
+            </div>
+          </div>
+          
+          <div class="banner3">
+            <img src="assets/booking.png" alt="booking">
+            <div class="banner-text">
+              <span>Mobile application</span>
+              <a href="#">Booking system</a>
+              
+            </div>
+          </div>
+          
+          <div class="banner4">
+            <img src="assets/juice-product.png" alt="juice-product">
+            <div class="banner-text">
+              <span>Front End application</span>
+              <a href="#">Juice product homepage</a>
+            </div>
+            <a id="seemore"href="#">see more &nbsp;&#8594;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="clients" id="clients">
+        <div class="team-text">
+          <span>Meet the team</span>
+          <h1>We are chilled and a laidback team</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="team-pic">
+          <div class="pic-l"><img src="assets/person3.png" alt="woman"></div>
+          <div class="pic-r">
+            <img src="assets/person1.png" alt="man" id="pic-r-top">
+            <img src="assets/person2.png" alt="man">
+          </div>
+        </div>
+      </div>
+
+      <div class="client-opinion">
+        <h1>“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</h1>
+        <div class="profile">
+          <div class="pfp">
+            <img src="assets/person4.png" alt="man">
+          </div>
+          <div class="profile-text">
+            <p>Carlos Tran</p>
+            <span>The Decorate Gatsby</span>          
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#works">Our Works</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="social">
+          <label class="logo-footer">Edie</label>
+          <div class="social-icons">
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-twitter"></a>
+          </div>
+        </div>
+      
+        <div class="contact">
+          <label for="email" class="footer-email-label">
+            <p>Want us to contact you?</p>
+            <div class="contact-us">
+              <input type="email" name="email" id="email" placeholder="Email" class="footer-email-input">
+              <button class="footer-join">Join</button>
+            </div>
+          </label>
+        </div>
+
+        <div class="credits">
+          <p>created by <a href="https://devchallenges.io/portfolio/vitorbizarra" target="_blank">vitorbizarra</a> - devChallenges.io</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
