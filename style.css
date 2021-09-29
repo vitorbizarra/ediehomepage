@@ -994,5 +994,6 @@ label.logo-footer {
         "contact"
         "credits";
         grid-gap: 2rem;
+        column-gap: 0;
     }
 }
