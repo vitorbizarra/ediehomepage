@@ -509,7 +509,7 @@ footer {
     grid-template-areas: 
     "footer-nav social contact"
     "credits credits credits";
-    
+    column-gap: 20vw;
 }
 
 .footer-nav {
