@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://vitorbizarraediehomepage.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -27,14 +27,13 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Built With](#built-with)
 - [Contact](#contact)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://imgur.com/iAVBcWt)
+![screenshot](https://i.imgur.com/iAVBcWt.png)
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
